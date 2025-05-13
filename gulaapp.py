@@ -20,6 +20,8 @@ def tampilkan_tentang_aplikasi():
     st.write("""
     Aplikasi ini membantu menghitung kebutuhan kalori dan konsumsi gula ideal berdasarkan
     data pribadi dan tingkat aktivitas harian. Cocok untuk kamu yang ingin hidup lebih sehat! 🍏💪
+    Meningkatkan Kesadaran Gizi dan Pola Makan SehatBanyak orang belum menyadari berapa banyak gula yang mereka konsumsi setiap hari.
+    Aplikasi ini membantu pengguna memahami batas konsumsi gula maksimal dan ideal berdasarkan kondisi tubuh dan aktivitas mereka.
     """)
 
 def tampilkan_pengenalan_kelompok():
@@ -34,17 +36,17 @@ def tampilkan_pengenalan_kelompok():
     - *Rahmawati Syafitri*: 2420645 💻
 
     
-    Kami hadir untuk membantu kamu lebih peduli terhadap pola makan! 😄
+   Kelompok Kami hadir untuk membantu kamu lebih peduli terhadap pola makan! 😄
     """)
 
 def main():
     # Styling for whole app + kalkulator black background
     st.markdown("""
         <style>
-        /* Background biru dan teks putih untuk seluruh aplikasi */
+        /* Background putih dan teks hitam untuk seluruh aplikasi */
         .reportview-container, .main, .sidebar .sidebar-content {
             background-color: #1E3A8A;
-            color: white;
+            color: black;
         }
 
         /* Header dan teks umum putih */
