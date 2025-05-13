@@ -25,11 +25,14 @@ def tampilkan_tentang_aplikasi():
 def tampilkan_pengenalan_kelompok():
     st.header("Pengenalan Kelompok 👩‍💻👨‍💻")
     st.write("""
-    Aplikasi ini dikembangkan oleh:
+    Aplikasi ini dikembangkan oleh kelompok 12:
 
-    - **Nama 1** – Developer utama 💻
-    - **Nama 2** – UI/UX Designer 🎨
-    - **Nama 3** – Dokumentasi dan QA 📋
+    - *Allyshia Rahma Putri*: 2420570  💻
+    - *I Gede Hilmi Krisna Hadinata*: 2420604 🎨
+    - *Khaesa Shafa Nuraini*: 2420608 📝
+    - *Pramudya Bayu Perkasa*: 2420640  🩵
+    - *Rahmawati Syafitri*: 2420645 💻
+
     
     Kami hadir untuk membantu kamu lebih peduli terhadap pola makan! 😄
     """)
