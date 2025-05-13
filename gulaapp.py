@@ -30,9 +30,12 @@ def tampilkan_pengenalan_kelompok():
     st.write("""
     Aplikasi ini dikembangkan oleh kelompok yang terdiri dari:
     
-    - **Nama 1**: Pengembang utama
-    - **Nama 2**: Desain UI/UX
-    - **Nama 3**: Pengujian dan Dokumentasi
+    - **Allysia Rahma Putri**: 2420570
+    - **I Gede Hilmi Krisna Hadinata**: 2420604
+    - **Khaesa Shafa Nuraini**: 2420608
+    - **Pramudya Bayu Perkasa**: 2420640 
+    - **Rahmawati Syafitri**:2420645
+
     
     Kami bertujuan untuk membantu orang-orang menjaga pola makan sehat dengan memberikan
     informasi yang jelas dan akurat tentang konsumsi kalori dan gula.
