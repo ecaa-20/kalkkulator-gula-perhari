@@ -40,18 +40,33 @@ def tampilkan_pengenalan_kelompok():
     """)
 
 def main():
-    # Background color: Sky blue for the whole app
+    # Set the background color to blue and text to white
     st.markdown("""
         <style>
         .reportview-container {
-            background-color: #87CEEB;  /* Sky Blue */
+            background-color: #1E3A8A;  /* Blue background */
+            color: white;               /* White text */
         }
         .sidebar .sidebar-content {
-            background-color: #87CEEB;  /* Sky Blue */
+            background-color: #1E3A8A;  /* Blue sidebar */
+            color: white;               /* White text in sidebar */
+        }
+        .block-container {
+            background-color: white;
+            color: black;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: white;  /* White text for all headers */
+        }
+        .css-18e3th9 {
+            color: white;  /* White color for other text elements */
         }
         </style>
         """, unsafe_allow_html=True)
-    
+
     # Title with a fun emoji
     st.title("Kalkulator Kebutuhan Gula Harian 🍭")
 
