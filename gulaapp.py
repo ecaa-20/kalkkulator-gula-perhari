@@ -1,4 +1,4 @@
-# simpan sebagai app.py
+
 import streamlit as st
 
 def hitung_kebutuhan_kalori(umur, tb, bb, jenis_kelamin, aktivitas):
@@ -32,21 +32,21 @@ def tampilkan_pengenalan_kelompok():
     st.write("""
     Aplikasi ini dikembangkan oleh kelompok yang terdiri dari:
 
-    - **Allyshia Rahma Putri**: 2420570  💻
-    - **I Gede Hilmi Krisna Hadinata**: 2420604 🎨
-    - **Khaesa Shafa Nuraini**: 2420608 📝
-    - **Pramudya Bayu Perkasa**: 2420640  🩵
-    - **Rahmawati Syafitri**: 2420645 💻
+    - **Nama 1**: Pengembang utama 💻
+    - **Nama 2**: Desain UI/UX 🎨
+    - **Nama 3**: Pengujian dan Dokumentasi 📝
 
     Kami bertujuan untuk membantu orang-orang menjaga pola makan sehat dengan memberikan
-    informasi yang jelas dan akurat tentang konsumsi kalori dan gula, Jaga lah pola makan dan minum, untuk mengatur gula pada makanaan atau minuman. ✨
+    informasi yang jelas dan akurat tentang konsumsi kalori dan gula. ✨
     """)
 
 def main():
     # Background color: Sky blue
     st.markdown("""
         <style>
-        .reportview-container {background-color: #87CEEB;}
+        .reportview-container {
+            background-color: #87CEEB;
+        }
         </style>
         """, unsafe_allow_html=True)
     
@@ -86,4 +86,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
