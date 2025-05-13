@@ -1,4 +1,3 @@
-
 import streamlit as st
 
 def hitung_kebutuhan_kalori(umur, tb, bb, jenis_kelamin, aktivitas):
@@ -41,11 +40,14 @@ def tampilkan_pengenalan_kelompok():
     """)
 
 def main():
-    # Background color: Sky blue
+    # Background color: Sky blue for the whole app
     st.markdown("""
         <style>
         .reportview-container {
-            background-color: #87CEEB;
+            background-color: #87CEEB;  /* Sky Blue */
+        }
+        .sidebar .sidebar-content {
+            background-color: #87CEEB;  /* Sky Blue */
         }
         </style>
         """, unsafe_allow_html=True)
@@ -56,7 +58,20 @@ def main():
     # Sidebar menu with some fun emojis
     menu = st.sidebar.radio("Pilih Menu 🤔", ["Kalkulator Kebutuhan Kalori 🧮", "Tentang Aplikasi 🌞", "Pengenalan Kelompok 👩‍💻👨‍💻"])
 
+    # Section for Kalkulator with white background
     if menu == "Kalkulator Kebutuhan Kalori 🧮":
+        # Apply white background for the calculator section
+        st.markdown("""
+            <style>
+            .block-container {
+                background-color: white;
+                padding: 2rem;
+                border-radius: 10px;
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            }
+            </style>
+            """, unsafe_allow_html=True)
+
         # Kalkulator Kebutuhan Kalori
         umur = st.number_input("Umur (tahun) 🎂", min_value=1, max_value=100, value=25)
         tb = st.number_input("Tinggi Badan (cm) 📏", min_value=50, max_value=250, value=170)
