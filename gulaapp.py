@@ -39,16 +39,14 @@ def tampilkan_pengenalan_kelompok():
     - **Rahmawati Syafitri**: 2420645 💻
 
     Kami bertujuan untuk membantu orang-orang menjaga pola makan sehat dengan memberikan
-    informasi yang jelas dan akurat tentang konsumsi kalori dan gula,Jaga lah pola makan dan minum, untuk mengatur gula pada makanaan atau minuman. ✨
+    informasi yang jelas dan akurat tentang konsumsi kalori dan gula, Jaga lah pola makan dan minum, untuk mengatur gula pada makanaan atau minuman. ✨
     """)
 
 def main():
     # Background color: Sky blue
     st.markdown("""
         <style>
-        .reportview-container {
-            background-color: #87CEEB;
-        }
+        .reportview-container {background-color: #87CEEB;}
         </style>
         """, unsafe_allow_html=True)
     
