@@ -18,11 +18,8 @@ def hitung_kebutuhan_kalori(umur, tb, bb, jenis_kelamin, aktivitas):
 def tampilkan_tentang_aplikasi():
     st.header("Tentang Aplikasi 🌞")
     st.write("""
-    Aplikasi ini berfungsi untuk menghitung estimasi kebutuhan kalori harian berdasarkan
-    umur, jenis kelamin, berat badan, tinggi badan, dan tingkat aktivitas seseorang.
-    
-    Selain itu, aplikasi ini memberikan saran konsumsi gula yang ideal 🍬
-    untuk hidup lebih sehat! 🍏💪
+    Aplikasi ini membantu menghitung kebutuhan kalori dan konsumsi gula ideal berdasarkan
+    data pribadi dan tingkat aktivitas harian. Cocok untuk kamu yang ingin hidup lebih sehat! 🍏💪
     """)
 
 def tampilkan_pengenalan_kelompok():
@@ -33,12 +30,12 @@ def tampilkan_pengenalan_kelompok():
     - **Nama 1** – Developer utama 💻
     - **Nama 2** – UI/UX Designer 🎨
     - **Nama 3** – Dokumentasi dan QA 📋
-
-    Kami ingin membantumu memahami konsumsi kalori dan gula dengan cara yang mudah dan menyenangkan! 😄
+    
+    Kami hadir untuk membantu kamu lebih peduli terhadap pola makan! 😄
     """)
 
 def main():
-    # Styling for full app and calculator section
+    # Styling for whole app + kalkulator black background
     st.markdown("""
         <style>
         /* Background biru dan teks putih untuk seluruh aplikasi */
@@ -47,30 +44,32 @@ def main():
             color: white;
         }
 
-        /* Header dan text default */
+        /* Header dan teks umum putih */
         h1, h2, h3, h4, h5, h6, p, label, .css-1cpxqw2, .css-qrbaxs {
             color: white !important;
         }
 
-        /* Container khusus kalkulator */
+        /* Kalkulator section: hitam dengan teks putih */
         .kalkulator-container {
-            background-color: white;
-            color: black;
+            background-color: #000000;  /* Hitam */
+            color: white;
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 20px;
         }
+
+        /* Ubah input label dan tulisan dalam kalkulator */
+        .kalkulator-container label, .kalkulator-container span, .kalkulator-container p {
+            color: white !important;
+        }
         </style>
     """, unsafe_allow_html=True)
 
-    # Judul utama
     st.title("Kalkulator Kebutuhan Gula Harian 🍭")
 
-    # Menu
     menu = st.sidebar.radio("Pilih Menu 🤔", ["Kalkulator Kebutuhan Kalori 🧮", "Tentang Aplikasi 🌞", "Pengenalan Kelompok 👩‍💻👨‍💻"])
 
     if menu == "Kalkulator Kebutuhan Kalori 🧮":
-        # Start kalkulator box
         st.markdown('<div class="kalkulator-container">', unsafe_allow_html=True)
 
         umur = st.number_input("Umur (tahun) 🎂", min_value=1, max_value=100, value=25)
@@ -93,7 +92,6 @@ def main():
             st.info(f"Konsumsi gula maksimal (10% energi): {gula_maks_10:.1f} gram/hari 🍭")
             st.info(f"Saran konsumsi ideal (5% energi): {gula_ideal_5:.1f} gram/hari 🍬")
 
-        # End kalkulator box
         st.markdown('</div>', unsafe_allow_html=True)
 
     elif menu == "Tentang Aplikasi 🌞":
