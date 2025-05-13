@@ -17,14 +17,14 @@ def hitung_kebutuhan_kalori(umur, tb, bb, jenis_kelamin, aktivitas):
     return bmr * faktor_aktivitas[aktivitas]
 
 def tampilkan_tentang_aplikasi():
-    st.header("Tentang Aplikasi 😃")
+    st.header("Tentang Aplikasi 🌞")
     st.write("""
     Aplikasi ini berfungsi untuk menghitung estimasi kebutuhan kalori harian berdasarkan
     umur, jenis kelamin, berat badan, tinggi badan, dan tingkat aktivitas seseorang.
     Selain itu, aplikasi ini juga memberikan saran tentang seberapa banyak konsumsi gula
     yang ideal, berdasarkan persentase dari total kebutuhan kalori harian.
     
-    Tujuan utama aplikasi ini adalah untuk membantu kamu menjaga pola makan sehat! 🍏🍎
+    Tujuan utama aplikasi ini adalah untuk membantu kamu menjaga pola makan sehat! 🍎🍏
     """)
 
 def tampilkan_pengenalan_kelompok():
@@ -32,20 +32,22 @@ def tampilkan_pengenalan_kelompok():
     st.write("""
     Aplikasi ini dikembangkan oleh kelompok yang terdiri dari:
 
-    - **Nama 1**: Pengembang utama 💻
-    - **Nama 2**: Desain UI/UX 🎨
-    - **Nama 3**: Pengujian dan Dokumentasi 📝
+    - **Allyshia Rahma Putri**: 2420570  💻
+    - **I Gede Hilmi Krisna Hadinata**: 2420604 🎨
+    - **Khaesa Shafa Nuraini**: 2420608 📝
+    - **Pramudya Bayu Perkasa**: 2420640  🩵
+    - **Rahmawati Syafitri**: 2420645 💻
 
     Kami bertujuan untuk membantu orang-orang menjaga pola makan sehat dengan memberikan
-    informasi yang jelas dan akurat tentang konsumsi kalori dan gula. ✨
+    informasi yang jelas dan akurat tentang konsumsi kalori dan gula,Jaga lah pola makan dan minum, untuk mengatur gula pada makanaan atau minuman. ✨
     """)
 
 def main():
-    # Background color
+    # Background color: Sky blue
     st.markdown("""
         <style>
         .reportview-container {
-            background-color: #f0f8ff;
+            background-color: #87CEEB;
         }
         </style>
         """, unsafe_allow_html=True)
@@ -53,8 +55,8 @@ def main():
     # Title with a fun emoji
     st.title("Kalkulator Kebutuhan Gula Harian 🍭")
 
-    # Sidebar menu with some emojis
-    menu = st.sidebar.radio("Pilih Menu 🤔", ["Kalkulator Kebutuhan Kalori 🧮", "Tentang Aplikasi 😃", "Pengenalan Kelompok 👩‍💻👨‍💻"])
+    # Sidebar menu with some fun emojis
+    menu = st.sidebar.radio("Pilih Menu 🤔", ["Kalkulator Kebutuhan Kalori 🧮", "Tentang Aplikasi 🌞", "Pengenalan Kelompok 👩‍💻👨‍💻"])
 
     if menu == "Kalkulator Kebutuhan Kalori 🧮":
         # Kalkulator Kebutuhan Kalori
@@ -78,7 +80,7 @@ def main():
             st.info(f"Konsumsi gula maksimal (10% energi): {gula_maks_10:.1f} gram/hari 🍭")
             st.info(f"Saran konsumsi ideal (5% energi): {gula_ideal_5:.1f} gram/hari 🍬")
     
-    elif menu == "Tentang Aplikasi 😃":
+    elif menu == "Tentang Aplikasi 🌞":
         tampilkan_tentang_aplikasi()
     
     elif menu == "Pengenalan Kelompok 👩‍💻👨‍💻":
