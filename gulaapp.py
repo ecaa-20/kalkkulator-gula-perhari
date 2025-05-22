@@ -40,10 +40,10 @@ def tampilkan_pengenalan_kelompok():
     """)
 
 def main():
-    # Styling for whole app + kalkulator black background
+    # Styling for whole app + kalkulator pink background
     st.markdown("""
         <style>
-        /* Background-image:url("https://images.unsplash.com/photo-1634612831148-03a8550e1d52?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0%22"); */
+        /* Background putih dan teks hitam untuk seluruh aplikasi */
         .reportview-container, .main, .sidebar .sidebar-content {
             background-color: #1E3A8A;
             color: black;
