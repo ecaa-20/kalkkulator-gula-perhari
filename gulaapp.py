@@ -46,7 +46,8 @@ def main():
         .stApp {background-image:url("https://images.unsplash.com/photo-1634612831148-03a8550e1d52?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0%22");
         background-size:cover; background-position:center; background-repeat:no-repeat;
         }
-
+    """)
+    
 def main():
     # Styling for whole app + kalkulator pink background
     st.markdown("""
