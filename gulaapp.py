@@ -72,7 +72,7 @@ def main():
 
     st.title("Kalkulator Kebutuhan Gula Harian 🍭")
 
-    menu = st.sidebar.radio("Pilih Menu 🤔", ["Kalkulator Kebutuhan Kalori 🧮", "Tentang Aplikasi 🌞", "Pengenalan Kelompok 👩‍💻👨‍💻"])
+    menu = st.sidebar.radio("Pilih Menu 🤔", ["Kalkulator Kebutuhan Gula 🧮", "Tentang Aplikasi 🌞", "Pengenalan Kelompok 👩‍💻👨‍💻"])
 
     if menu == "Kalkulator Kebutuhan Gula 🧮":
         st.markdown('<div class="kalkulator-container">', unsafe_allow_html=True)
