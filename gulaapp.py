@@ -29,7 +29,7 @@ def tampilkan_pengenalan_kelompok():
     st.write("""
     Aplikasi ini dikembangkan oleh kelompok 12:
 
-    - *Allyshia Rahma Putri*: 2420570  🐈
+    - *Allysia Rahma Putri*: 2420570  🐈
     - *I Gede Hilmi Krisna Hadinata*: 2420604 🐔
     - *Khaesa Shafa Nuraini*: 2420608 🐼
     - *Pramudya Bayu Perkasa*: 2420640  🐆
