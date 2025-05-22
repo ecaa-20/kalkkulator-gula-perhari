@@ -43,7 +43,7 @@ def main():
     # Styling for whole app + kalkulator black background
     st.markdown("""
         <style>
-        /* Background-image:url("https://images.unsplash.com/photo-1634612831148-03a8550e1d52?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0"); */
+        /* Background-image:url("https://images.unsplash.com/photo-1634612831148-03a8550e1d52?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0%22"); */
         .reportview-container, .main, .sidebar .sidebar-content {
             background-color: #1E3A8A;
             color: black;
