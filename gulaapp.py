@@ -56,8 +56,8 @@ def main():
 
         /* Kalkulator section: hitam dengan teks putih */
         .kalkulator-container {
-            background-color: #000000;  /* Hitam */
-            color: white;
+            background-image:url("https://images.unsplash.com/photo-1634612831148-03a8550e1d52?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0%22");
+            color: purple;
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 20px;
