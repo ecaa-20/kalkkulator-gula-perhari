@@ -40,13 +40,32 @@ def tampilkan_pengenalan_kelompok():
     """)
 
 def main():
+    st.set_page_config(page_title="Kalkulator Kebutuhan Gula",layout="centered")
+    st.markdown("""
+        <style>
+        .stApp {background-image:url("https://images.unsplash.com/photo-1634612831148-03a8550e1d52?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0%22");
+        background-size:cover; background-position:center; background-repeat:no-repeat;
+        }
+
+        .stApp::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            baclground-color: rgba(0, 0, 0, 0.6) /*Lapisan gelap*/
+            z-index: -1;
+        }
+
+def main():
     # Styling for whole app + kalkulator pink background
     st.markdown("""
         <style>
-        /* Background pink dan teks hitam untuk seluruh aplikasi */
+        /* Background putih dan teks hitam untuk seluruh aplikasi */
         .reportview-container, .main, .sidebar .sidebar-content {
             background-color: #1E3A8A;
-            color: pink;
+            color: black;
         }
 
         /* Header dan teks umum putih */
@@ -57,7 +76,7 @@ def main():
         /* Kalkulator section: hitam dengan teks putih */
         .kalkulator-container {
             background-color: #000000; /* Hitam */
-            color: pink;
+            color: white;
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 20px;
@@ -65,7 +84,7 @@ def main():
 
         /* Ubah input label dan tulisan dalam kalkulator */
         .kalkulator-container label, .kalkulator-container span, .kalkulator-container p {
-            color: pink !important;
+            color: white !important;
         }
         </style>
     """, unsafe_allow_html=True)
@@ -74,7 +93,7 @@ def main():
 
     menu = st.sidebar.radio("Pilih Menu 🤔", ["Kalkulator Kebutuhan Kalori 🧮", "Tentang Aplikasi 🌞", "Pengenalan Kelompok 👩‍💻👨‍💻"])
 
-    if menu == "Kalkulator Kebutuhan Kalori 🧮":
+    if menu == "Kalkulator Kebutuhan Gula 🧮":
         st.markdown('<div class="kalkulator-container">', unsafe_allow_html=True)
 
         umur = st.number_input("Umur (tahun) 🎂", min_value=1, max_value=100, value=25)
