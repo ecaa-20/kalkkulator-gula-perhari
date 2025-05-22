@@ -47,17 +47,6 @@ def main():
         background-size:cover; background-position:center; background-repeat:no-repeat;
         }
 
-        .stApp::before{
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            baclground-color: rgba(0, 0, 0, 0.6) /*Lapisan gelap*/
-            z-index: -1;
-        }
-
 def main():
     # Styling for whole app + kalkulator pink background
     st.markdown("""
