@@ -43,7 +43,7 @@ def main():
     # Styling for whole app + kalkulator black background
     st.markdown("""
         <style>
-        /* Background putih dan teks hitam untuk seluruh aplikasi */
+        /* Background pink dan teks hitam untuk seluruh aplikasi */
         .reportview-container, .main, .sidebar .sidebar-content {
             background-color: #1E3A8A;
             color: black;
