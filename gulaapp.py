@@ -108,11 +108,11 @@ def main():
             st.info(f"Konsumsi gula maksimal (10% energi): {gula_maks_10:.1f} gram/hari 🍭")
             st.info(f"Saran konsumsi ideal (5% energi): {gula_ideal_5:.1f} gram/hari 🍬")
             st.success(f"saran dan contoh makanan rendah gula beserta kandungan gula nya :") 
-            (f"sayuran hijau(brokoli,bayam,selada) : <1 gram/100 gram")
+            (f"sayuran hijau(brokoli,bayam,selada)🥬🥦 : <1 gram/100 gram")
             (f"telur : 0 gram")
-            (f"Greek Yogurt Plain (tanpa pemanis) : 3–4 gram per 100 gram (laktosa alami)")
+            (f"Greek Yogurt Plain (tanpa pemanis)🍦 : 3–4 gram per 100 gram (laktosa alami)")
             (f"tahu dan tempe : <1 gram/100 gram")
-            (f"buah : avokad (0,2 gram), tomat (2,6 gram), strawberry (4,9 gram), belimbing (3,6 gram), raspberry (4,4 gram)")
+            (f"buah : avokad 🥑(0,2 gram), tomat🍅 (2,6 gram), strawberry 🍓(4,9 gram), belimbing (3,6 gram), raspberry🫐(4,4 gram)")
         
         st.markdown('</div>', unsafe_allow_html=True)
 
