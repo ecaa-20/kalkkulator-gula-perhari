@@ -107,59 +107,8 @@ def main():
             st.success(f"Estimasi kebutuhan kalori: {kebutuhan_kalori:.0f} kkal/hari 💪")
             st.info(f"Konsumsi gula maksimal (10% energi): {gula_maks_10:.1f} gram/hari 🍭")
             st.info(f"Saran konsumsi ideal (5% energi): {gula_ideal_5:.1f} gram/hari 🍬")
-            st.info(f"Berikut adalah rincian estimasi kandungan gula alami dan tambahan (jika ada) dalam setiap makanan/minuman pada contoh menu sehari rendah gula tadi:
-- Sarapan
-1. Oatmeal dengan pisang & kayu manis; Gula alami dari pisang (1/2 buah): ± 6–7 gram
-        Oatmeal tanpa gula: 0 gram
-        Kayu manis: 0 gram
 
-2. Telur rebus
-0 gram gula
-3. Teh hijau tanpa gula
-0 gram gula
-
-Total gula sarapan: ± 6–7 gram (alami, bukan tambahan)
----
-
-Snack Pagi
-1. Apel (ukuran sedang)
-Gula alami: ± 19 gram
-2. Segenggam kacang almond (sekitar 28 gram)
-0 gram gula (jika tanpa tambahan)
-Total gula snack pagi: ± 19 gram
-
-Makan Siang:
-1. Nasi merah (150 gram)
-Gula alami dari karbohidrat kompleks: ± 0–1 gram
-2. Ayam panggang tanpa kulit
-0 gram gula
-3. Tumis bayam & wortel
-Wortel: ± 2–3 gram gula alami per 1/2 cangkir
-Bayam: <1 gram
-
-Total gula makan siang: ± 3–4 gram
----
-
-Snack Sore
-1. Yogurt plain tanpa pemanis (150 ml)
-Gula alami dari laktosa: ± 5–6 gram
-Tambahan buah segar (misal 2 potong stroberi): ± 1 gram
-
-Total gula snack sore: ± 6–7 gram
----
-
-Makan Malam
-1. Sup sayur (wortel, buncis, tahu)
-Wortel & buncis: ± 3 gram gula alami
-Tahu: <1 gram gula
-2. Tempe panggang
-± 1–2 gram gula alami dari fermentasi kedelai
-3. Nasi merah (opsional, 100 gram)
-± <1 gram
-
-Total gula makan malam: ± 5–6 gram
----
-Total Estimasi Gula Sehari: ± 39–43 gram")
+        st.info(f"saran buah")
 
         st.markdown('</div>', unsafe_allow_html=True)
 
