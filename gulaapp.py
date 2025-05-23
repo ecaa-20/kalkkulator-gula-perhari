@@ -20,8 +20,18 @@ def tampilkan_tentang_aplikasi():
     st.write("""
     Aplikasi ini membantu menghitung kebutuhan kalori dan konsumsi gula ideal berdasarkan
     data pribadi dan tingkat aktivitas harian. Cocok untuk kamu yang ingin hidup lebih sehat! 🍏💪
-    Meningkatkan Kesadaran Gizi dan Pola Makan SehatBanyak orang belum menyadari berapa banyak gula yang mereka konsumsi setiap hari.
+    Meningkatkan Kesadaran Gizi dan Pola Makan Sehat. Banyak orang belum menyadari berapa banyak gula yang mereka konsumsi setiap hari.
     Aplikasi ini membantu pengguna memahami batas konsumsi gula maksimal dan ideal berdasarkan kondisi tubuh dan aktivitas mereka.
+    Kalkulator kebutuhan gula harian adalah alat (bisa berupa aplikasi, situs web, atau tabel manual) yang digunakan untuk memperkirakan berapa banyak gula tambahan yang dapat dikonsumsi seseorang dalam sehari tanpa membahayakan kesehatan, berdasarkan faktor-faktor seperti:
+- Usia 🎂
+- Jenis kelamin 👦👧
+- Berat badan ⚖️
+- Tinggi badan 📏
+- Tingkat aktivitas fisik 🏃
+
+Gula tambahan sebaiknya tidak lebih dari 10% dari total kalori harian (lebih ideal jika di bawah 5%). Misalnya, jika kebutuhan kalori harian seseorang adalah 2000 kkal, maka:
+- 10% dari 2000 kkal = 200 kkal = sekitar 50 gram gula tambahan per hari. 🍫
+- 5% dari 2000 kkal = 100 kkal = sekitar 25 gram gula tambahan per hari. 🧁
     """)
 
 def tampilkan_pengenalan_kelompok():
