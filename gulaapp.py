@@ -62,7 +62,7 @@ def main():
 
         /* Header dan teks umum putih */
         h1, h2, h3, h4, h5, h6, p, label, .css-1cpxqw2, .css-qrbaxs {
-            color: pink !important;
+            color: dark pink !important;
         }
 
         /* Kalkulator section: hitam dengan teks putih */
