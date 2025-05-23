@@ -62,7 +62,7 @@ def main():
 
         /* Header dan teks umum putih */
         h1, h2, h3, h4, h5, h6, p, label, .css-1cpxqw2, .css-qrbaxs {
-            color: lilac !important;
+            color: pink !important;
         }
 
         /* Kalkulator section: hitam dengan teks putih */
@@ -107,7 +107,7 @@ def main():
             st.success(f"Estimasi kebutuhan kalori: {kebutuhan_kalori:.0f} kkal/hari 💪")
             st.info(f"Konsumsi gula maksimal (10% energi): {gula_maks_10:.1f} gram/hari 🍭")
             st.info(f"Saran konsumsi ideal (5% energi): {gula_ideal_5:.1f} gram/hari 🍬")
-            st.info(f"saran buah: strawberry, apel, mangga,anggur")
+            st.success(f"saran buah: strawberry, apel, mangga,anggur")
             
         st.markdown('</div>', unsafe_allow_html=True)
 
