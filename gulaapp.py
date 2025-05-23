@@ -107,7 +107,6 @@ def main():
             st.success(f"Estimasi kebutuhan kalori: {kebutuhan_kalori:.0f} kkal/hari 💪")
             st.info(f"Konsumsi gula maksimal (10% energi): {gula_maks_10:.1f} gram/hari 🍭")
             st.info(f"Saran konsumsi ideal (5% energi): {gula_ideal_5:.1f} gram/hari 🍬")
-
         st.info(f"saran buah")
 
         st.markdown('</div>', unsafe_allow_html=True)
