@@ -107,26 +107,7 @@ def main():
             st.success(f"Estimasi kebutuhan kalori: {kebutuhan_kalori:.0f} kkal/hari 💪")
             st.info(f"Konsumsi gula maksimal (10% energi): {gula_maks_10:.1f} gram/hari 🍭")
             st.info(f"Saran konsumsi ideal (5% energi): {gula_ideal_5:.1f} gram/hari 🍬")
-            st.info(f"Berikut adalah beberapa contoh makanan rendah gula beserta estimasi kandungan gulanya:
-________________________________________
-1. Sayuran Hijau (seperti bayam, brokoli, selada)
-•	Kandungan gula: <1 gram per 100 gram
-2. Telur
-•	Kandungan gula: 0 gram
-3. Ikan (seperti salmon, tuna, sarden)
-•	Kandungan gula: 0 gram
-4. Greek Yogurt Plain (tanpa pemanis)
-•	Kandungan gula: 3–4 gram per 100 gram (laktosa alami)
-5. Avokad
-•	Kandungan gula: ~0.2 gram per 100 gram
-6. Tahu dan Tempe
-•	Kandungan gula: <1 gram per 100 gram
-7. Jamur (seperti champignon, shiitake)
-•	Kandungan gula: ~1 gram per 100 gram
-Buah
-Avokad 0,2 gram
-Tomat 2,6 gram
-")
+            st.info(f"saran buah: strawberry, apel, mangga,anggur")
             
         st.markdown('</div>', unsafe_allow_html=True)
 
