@@ -62,7 +62,7 @@ def main():
 
         /* Header dan teks umum putih */
         h1, h2, h3, h4, h5, h6, p, label, .css-1cpxqw2, .css-qrbaxs {
-            color: pink !important;
+            color: purple !important;
         }
 
         /* Kalkulator section: hitam dengan teks putih */
@@ -112,10 +112,7 @@ def main():
             (f"telur : 0 gram")
             (f"Greek Yogurt Plain (tanpa pemanis) : 3–4 gram per 100 gram (laktosa alami)")
             (f"tahu dan tempe : <1 gram/100 gram")
-            (f"buah : avokad (0,2 gram")
-            (f"       tomat (2,6 gram)")
-            (f"       strawberry (4,9 gram)")
-            (f"       belimbing (3,6 gram)")
+            (f"buah : avokad (0,2 gram), tomat (2,6 gram), strawberry (4,9 gram), belimbing (3,6 gram), raspberry (4,4 gram)")
         
         st.markdown('</div>', unsafe_allow_html=True)
 
